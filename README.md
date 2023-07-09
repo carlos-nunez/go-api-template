@@ -40,7 +40,7 @@ uuid="" // a UUID to identify this environment
 Run the application using
 
 ```
-go server.go
+go run server.go
 ```
 
 Build the docker image using
