@@ -32,7 +32,6 @@ SIGNING_SECRET="" // token auth signing secret
 DEPLOY_URL = "" // the url of your deploy server if using this in conjunction with the deploy template
 DEPLOY_KEY = "" // your deployment key, matching the one on your deploy server
 uuid="" // a UUID to identify this environment
-
 ```
 
 ## Usage
