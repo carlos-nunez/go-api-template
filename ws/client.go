@@ -74,19 +74,6 @@ func authenticate(apiToken string) bool {
 
 }
 
-func authenticateRoomJoin(token, roomID string) bool {
-	// Replace with a fetch to see if an api token exists.
-	found := false
-	// See if a websocket server exists with said API KEY
-
-	foundToken := api.GetWebsocketToken(token)
-	if foundToken != "" {
-		found = true
-	}
-
-	return found
-}
-
 func (c *Client) readPump() {
 	defer func() {
 		c.hub.unregister <- c
